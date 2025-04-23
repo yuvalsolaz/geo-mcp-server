@@ -84,10 +84,11 @@ app.post('/geocode', async (req: Request, res: Response) => {
     const { text, k } = req.body;
     
     if (!text) {
-      return res.status(400).json({ 
+      res.status(400).send({ 
         status: 'error',
         message: 'Text query is required' 
       });
+      return;
     }
     
     const response = await handleGeocodingRequest(text, k);
