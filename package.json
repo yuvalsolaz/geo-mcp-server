@@ -1,0 +1,33 @@
+{
+  "name": "geo-mcp-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuvalsolaz/geo-mcp-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuvalsolaz/geo-mcp-server/issues"
+  },
+  "homepage": "https://github.com/yuvalsolaz/geo-mcp-server#readme",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.14.1",
+    "@types/socket.io": "^3.0.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
